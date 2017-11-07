@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLRPro - Check Your Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Pricing-Table-Style-01.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Pricing-Table-Style-011.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Pricing-Tables.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Pricing-Tables1.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/user.css') }}">
+</head>
+
+<body style="background-color:rgb(51,51,51);">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgba(248,248,248,0);padding-top:35px">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="http://localhost:5000/" style="padding-left:69px;"> <img src="{{ url_for('static', filename='img/logo_colored.png') }}" style="width:150px;margin:0px;margin-top:-25px;padding-left:0px;margin-left:-5px;"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1" style="margin-right:29px;background-color: #000000"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://localhost:5000/about">About</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron hero">
+<div class="col-md-4 col-md-push-7 phone-preview">
+            <div class="iphone-mockup">
+                <div class="screen"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="margin-left:50px;margin-right:50px;">
+                <div class="col-md-6 get-it" style="margin-top:75px;padding-top:100px;padding-bottom:100px;">
+                    <h1>MLR-Pro </h1>
+                    <h1>Our Mission</h1>
+                    <p> Job search could be challenging and very time consuming. There are many variables to consider; What companies, what roles, Do I ready for the position? Etc. We create this website to help people on their job search. We do that with Artificial Intelligence. </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" style="padding-top:-1px;margin-top:-33px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5 style="font-family:Bebas;">® 2017 All rights reserved</h5></div>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>
